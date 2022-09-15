@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <script>
+            function sum()
+			{
+			 var n1,n2,s;
+			 n1=Number(document.getElementById("num1").value);
+			 n2=Number(document.getElementById("num2").value);
+			 //document.write("Num1 = "+n1+"  Num2 = "+n2);           
+			 s=n1+n2;
+			 //document.write("Add is ="+s);
+			// document.write(document.getElementByName('num1').value);
+            document.getElementById("demo").innerHTML="First Value : "+n1+"    Second Value : "+n2+ "   Sum : "+s;
+			}
+        </script>
+    </head>
+    <body>
+        <form>
+        First No : <input type="text" id ="num1" name="number1" >
+        Second No : <input type="text" id ="num2" name="number2" >
+         <button  type="button" onclick="sum()">Sum</button>
+         
+         </form>
+         <div>
+            <h2 id="demo"> </h2>
+         </div>
+    </body>
+</html>
