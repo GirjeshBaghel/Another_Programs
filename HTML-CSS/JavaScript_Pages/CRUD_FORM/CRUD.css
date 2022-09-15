@@ -1,0 +1,62 @@
+body > table{
+    width:100%;    
+}
+table{
+    border-collapse: collapse;
+}
+table.list{
+    width:100%;
+}
+td,th{
+    border:1px solid #dddddd;
+    text-align: top;
+    padding: 10px;
+}
+tr:nth-child(even), table.list thead>tr{
+    background-color:#dddddd;
+}
+input[type="text"]{
+    width: 100%;
+    padding: 12px 20px;
+    margin:8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+input[type="email"]{
+    width: 100%;
+    padding: 12px 20px;
+    margin:8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+input[type="password"]{
+    width: 100%;
+    padding: 12px 20px;
+    margin:8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+input[type="submit"]{
+    width: 150px;
+    background-color: #929D82;
+    color:white;
+    font-weight: bolder;
+    font-size: 20px;
+    padding:12px 20px;
+    margin:8px 0;
+    border:none;
+    border-radius: 10px;
+    cursor:pointer;
+}
+input[type="submit"]:hover{
+    background-color: #7a7872;
+}
+table div.sub{
+    text-align: center;
+}
